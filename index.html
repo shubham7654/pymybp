@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PYBP-MYBP Report Card</title>
+  <link rel="stylesheet" href="../Tools/Bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="../Tools/Fontawesome/css/all.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="Images/BS-Logo.svg" alt="Beyondskool Logo">
+    <h4 id="page-header">PYBP-MYBP Report Card</h4>
+  </header>
+  <div class="form-outer-container">
+    <form action="" method="post" id="form" class="form-container">
+      <div class="info-input-container d-flex justify-content-evenly">
+        <div class="inputs">
+          <label for="sname">Student name</label>
+          <input type="text" id="sname" class="form-control my-3" placeholder="Student name">
+        </div>
+        <div class="inputs">
+          <label for="crn">CRN</label>
+          <input type="text" id="crn" class="form-control my-3" maxlength="6" placeholder="CRN">
+        </div>
+        <br>
+        <div class="inputs">
+          <label for="programme">Programme</label>
+          <select name="programme" id="programme" class="form-control my-3">
+            <!-- <option value="EYBP">EYBP</option> -->
+            <option value="PYBP">PYBP</option>
+            <option value="MYBP">MYBP</option>
+          </select>
+        </div>
+        <div class="inputs">
+          <label for="trim">Trimester</label>
+          <select name="trim" id="trim" class="form-control my-3">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </div>
+      </div>
+      <div class="stream-container">
+        <div class="stream">
+          <div class="tname-stream-container">
+            <input type="text" class="tname-input form-control" placeholder="Teacher Name">
+            <p>LC</p>
+          </div>
+          <div class="marks-table-container">
+            <table class="marks-table table table-bordered">
+              <tr>
+                <th></th>
+                <th>Week 1</th>
+                <th>Week 2</th>
+                <th>Week 3</th>
+                <th>Week 4</th>
+                <th>Cumulative #1</th>
+                <th>Week 5</th>
+                <th>Week 6</th>
+                <th>Week 7</th>
+                <th>Week 8</th>
+                <th>Cumulative #2</th>
+                <th>Week 9</th>
+                <th>Week 10</th>
+                <th>Week 11</th>
+                <th>Week 12</th>
+                <th>Cumulative #3</th>
+              </tr>
+              <tr>
+                <th>Attendance</th>
+                <td>
+                  <select name="" id="atn01">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="atn02">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="atn03">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="atn04">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <th id="atn001">0</th>
+                <td>
+                  <select name="" id="atn05">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="atn06">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="atn07">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="atn08">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <th id="atn002">0</th>
+                <td>
+                  <select name="" id="atn09">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="atn010">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="atn011">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="atn012">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <th id="atn003">0</th>
+              </tr>
+              <tr>
+                <th>Communication</th>
+                <td>
+                  <select name="" id="com01">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="com02">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="com03">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="com04">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <th id="com001">0</th>
+                <td>
+                  <select name="" id="com05">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="com06">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="com07">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="com08">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <th id="com002">0</th>
+                <td>
+                  <select name="" id="com09">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="com010">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="com011">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="com012">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <th id="com003">0</th>
+              </tr>
+              <tr>
+                <th>Confidence</th>
+                <td>
+                  <select name="" id="con01">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="con02">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="con03">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="con04">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <th id="con001">0</th>
+                <td>
+                  <select name="" id="con05">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="con06">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="con07">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="con08">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <th id="con002">0</th>
+                <td>
+                  <select name="" id="con09">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="con010">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="con011">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="con012">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <th id="con003">0</th>
+              </tr>
+              <tr>
+                <th>Creative Thinking</th>
+                <td>
+                  <select name="" id="CT01">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="CT02">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="CT03">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="CT04">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <th id="CT001">0</th>
+                <td>
+                  <select name="" id="CT05">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="CT06">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="CT07">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="CT08">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <th id="CT002">0</th>
+                <td>
+                  <select name="" id="CT09">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="CT010">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="CT011">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="CT012">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <th id="CT003">0</th>
+              </tr>
+              <tr>
+                <th>Bonus question done?</th>
+                <td>
+                  <select name="" id="BQD01">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="BQD02">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="BQD03">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="BQD04">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <th id="BQD001">0</th>
+                <td>
+                  <select name="" id="BQD05">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="BQD06">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="BQD07">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="BQD08">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <th id="BQD002">0</th>
+                <td>
+                  <select name="" id="BQD09">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="BQD010">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="BQD011">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="BQD012">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <th id="BQD003">0</th>
+              </tr>
+              <tr>
+                <th>CAPSTONE</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <th id="cap001"></th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <th id="cap002"></th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                  <select name="" id="cap01">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
+                </td>
+                <th id="cap003">0</th>
+              </tr>
+            </table>
+          </div>
+          <div class="edit-save-button-container">
+            <button class="edit-button btn btn-primary">EDIT</button>
+            <button class="save-button btn btn-success">SAVE</button>
+          </div>
+        </div>
+        <div class="stream">
+          <div class="tname-stream-container">
+            <input type="text" class="tname-input form-control" placeholder="Teacher Name">
+            <p>LogiMath / Applied Math</p>
+          </div>
+          <div class="marks-table-container">
+            <table class="marks-table table table-bordered">
+              <tr>
+                <th></th>
+                <th>Week 1</th>
+                <th>Week 2</th>
+                <th>Week 3</th>
+                <th>Week 4</th>
+                <th>Cumulative #1</th>
+                <th>Week 5</th>
+                <th>Week 6</th>
+                <th>Week 7</th>
+                <th>Week 8</th>
+                <th>Cumulative #2</th>
+                <th>Week 9</th>
+                <th>Week 10</th>
+                <th>Week 11</th>
+                <th>Week 12</th>
+                <th>Cumulative #3</th>
+              </tr>
+              <tr>
+                <th>Attendance</th>
+                <td>
+                  <select name="" id="atn01">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="atn02">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="atn03">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="atn04">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <th id="atn001">0</th>
+                <td>
+                  <select name="" id="atn05">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="atn06">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="atn07">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="atn08">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <th id="atn002">0</th>
+                <td>
+                  <select name="" id="atn09">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="atn010">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="atn011">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="atn012">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <th id="atn003">0</th>
+              </tr>
+              <tr>
+                <th>Communication</th>
+                <td>
+                  <select name="" id="com01">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="com02">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="com03">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="com04">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <th id="com001">0</th>
+                <td>
+                  <select name="" id="com05">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="com06">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="com07">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="com08">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <th id="com002">0</th>
+                <td>
+                  <select name="" id="com09">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="com010">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="com011">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="com012">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <th id="com003">0</th>
+              </tr>
+              <tr>
+                <th>Confidence</th>
+                <td>
+                  <select name="" id="con01">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="con02">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="con03">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="con04">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <th id="con001">0</th>
+                <td>
+                  <select name="" id="con05">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="con06">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="con07">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="con08">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <th id="con002">0</th>
+                <td>
+                  <select name="" id="con09">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="con010">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="con011">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="con012">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <th id="con003">0</th>
+              </tr>
+              <tr>
+                <th>Creative Thinking</th>
+                <td>
+                  <select name="" id="CT01">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="CT02">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="CT03">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="CT04">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <th id="CT001">0</th>
+                <td>
+                  <select name="" id="CT05">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="CT06">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="CT07">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="CT08">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <th id="CT002">0</th>
+                <td>
+                  <select name="" id="CT09">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="CT010">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="CT011">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="CT012">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+                <th id="CT003">0</th>
+              </tr>
+              <tr>
+                <th>Bonus question done?</th>
+                <td>
+                  <select name="" id="BQD01">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="BQD02">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="BQD03">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="BQD04">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <th id="BQD001">0</th>
+                <td>
+                  <select name="" id="BQD05">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="BQD06">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="BQD07">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="BQD08">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <th id="BQD002">0</th>
+                <td>
+                  <select name="" id="BQD09">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="BQD010">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="BQD011">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="BQD012">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                  </select>
+                </td>
+                <th id="BQD003">0</th>
+              </tr>
+              <tr>
+                <th>CAPSTONE</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <th id="cap001"></th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <th id="cap002"></th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                  <select name="" id="cap01">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
+                </td>
+                <th id="cap003">0</th>
+              </tr>
+            </table>
+          </div>
+          <div class="edit-save-button-container">
+            <button class="edit-button btn btn-primary">EDIT</button>
+            <button class="save-button btn btn-success">SAVE</button>
+          </div>
+        </div>
+        <div class="stream">
+          <div class="tname-stream-container">
+            <input type="text" class="tname-input form-control" placeholder="Teacher Name">
+            <p>STEM</p>
+          </div>
+          <div class="marks-table-container">
+            <table class="marks-table table table-bordered">
+
+            </table>
+          </div>
+          <div class="edit-save-button-container">
+            <button class="edit-button btn btn-primary">EDIT</button>
+            <button class="save-button btn btn-success">SAVE</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script src="../Tools/jquery.js"></script>
+  <script src="../Tools/Bootstrap/js/bootstrap.js"></script>
+  <script src="../Tools/Fontawesome/js/all.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

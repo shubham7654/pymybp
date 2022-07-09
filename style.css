@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;800&display=swap');
+
+* {
+  /* margin: 0 !important; */
+  box-sizing: border-box !important;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  box-shadow: 1px 1px 5px #eee;
+}
+header img {
+  width: 200px;
+}
+#page-header {
+  color: #2d0ca3;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 800;
+  margin: 0;
+}
+
+/* Form  */
+.form-outer-container {
+  padding: 15px;
+  margin: 15px auto;
+  box-shadow: 1px 1px 5px #eee;
+  border-radius: 5px;
+}
+.inputs input, .inputs select {
+  margin: 0 !important;
+  width: 200px;
+}
+
+/* Stream container */
+
+.stream-container {
+}
+
+.stream {
+  display: flex;
+  margin: 40px 0;
+  box-shadow: 1px 1px 5px #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+  .tname-stream-container {
+    margin: 0 5px;
+  }
+  .tname-stream-container * {
+    margin: 20px 0;
+  }
+  .tname-stream-container p {
+    border-radius: 5px;
+    padding: 8px 0;
+    text-align: center;
+    font-weight: 600;
+  }
+  .stream:nth-child(1)>.tname-stream-container p {
+    background-color: #ffe599;
+  }
+  .stream:nth-child(2)>.tname-stream-container p {
+    background-color: #c27ba0;
+  }
+  .stream:nth-child(3)>.tname-stream-container p {
+    background-color: #b6d7a8;
+  }
+
+  /* Table */
+
+  .marks-table {
+    font-size: 10px;
+  }
+
+  /* Edit and Save button container */
+
+  .edit-save-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5px;
+  }
